@@ -7,4 +7,6 @@ chmod u+x setup.sh
 ./setup.sh
 
 Install python packages
-curl https://raw.githubusercontent.com/cgannonucm/pythonsetuplensing/refs/heads/main/requirments.txt | python -m pip install -r
+```
+wget https://raw.githubusercontent.com/cgannonucm/pythonsetuplensing/refs/heads/main/requirments.txt requirments.txt; python -m pip install -r requirments.txt
+```
