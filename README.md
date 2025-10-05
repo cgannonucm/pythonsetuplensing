@@ -5,3 +5,6 @@ A script is needed because some modules are only available as git repositories, 
 To run the script :
 chmod u+x setup.sh
 ./setup.sh
+
+Install python packages
+curl https://raw.githubusercontent.com/cgannonucm/pythonsetuplensing/refs/heads/main/requirments.txt | python -m pip install -r
